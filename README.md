@@ -10,15 +10,15 @@
 # Let's install the bot.
 cd $HOME
 git clone https://github.com/khoffash/capitans.git
-cd Khoffashchmod +x khoffash.sh
-./khoffash.sh install
-./khoffash.sh 
+cd capitanschmod +x khoffash.sh
+./capitans.sh install
+./capitans.sh 
 # Enter a phone number & confirmation code.
 ```
 ### One command
 To install everything in one command, use:
 ```sh
-cd $HOME && git clone https://github.com/khoffash/capitans.git && cd Khoffash && chmod +x khoffash.sh && ./khoffash.sh install && ./khoffash.sh
+cd $HOME && git clone https://github.com/khoffash/capitans.git && cd Khoffash && chmod +x khoffash.sh && ./khoffash.sh install && ./capitans.sh
 ```
 
 * * *
@@ -27,7 +27,7 @@ cd $HOME && git clone https://github.com/khoffash/capitans.git && cd Khoffash &&
 
 ```
 killall -9 bash
-cd Khoffash && killall screen && screen ./khoffash.sh
+cd capitans && killall screen && screen ./capitans.sh
 ```
 
 * * *
