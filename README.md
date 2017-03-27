@@ -10,7 +10,7 @@
 # Let's install the bot.
 cd $HOME
 git clone https://github.com/khoffash/capitans.git
-cd capitanschmod +x khoffash.sh
+cd capitanschmod +x capitans.sh
 ./capitans.sh install
 ./capitans.sh 
 # Enter a phone number & confirmation code.
